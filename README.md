@@ -10,7 +10,7 @@ Para el proyecto fue utilizado React
 
 La página está hosteada en Netlify y se puede acceder con el siguiente link
 
-[https://flightstrack.herokuapp.com/](https://flightstrack.herokuapp.com/)
+[vercel.com/janwandter/flightstracker](vercel.com/janwandter/flightstracker)
 
 O se puede probar de forma local clonando el repositorio y ejecutando en el directorio
 
