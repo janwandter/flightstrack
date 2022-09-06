@@ -1,0 +1,138 @@
+@import "./chat.css";
+@import "./map.css";
+@import "./table.css";
+
+:root {
+  --clr-font: #282828;
+  --clr-primary-100: #f3f6fa;
+  --clr-primary-300: #c6cedb4a;
+  --clr-primary-600: #cac9c76f;
+  --clr-primary-900: #626160;
+  --clr-secondary: #ffffff;
+  --clr-terciary: #236cd2;
+  --clr-success: #4ab79c;
+  --clr-success-100: #b74a4aa0;
+  --clr-danger: #f0776e;
+
+  --ff-body: 'Poppins', 'sans-serif', 'Apple Color Emoji';
+  --fs-body: 1rem;
+  --fs-p: 0.75rem;
+  --fs-header: 2.5rem;
+
+  --size-50: 0.5rem;
+  --size-100: 1rem;
+  --size-200: 2rem;
+  --size-300: 3rem;
+  --size-400: 4rem;
+  --size-500: 5rem;
+  --size-800: 8rem;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  color: var(--clr-font);
+  background-color: var(--clr-primary-100);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-primary-100 {
+  background-color: var(--clr-primary-100);
+}
+
+.bg-primary-300 {
+  background-color: var(--clr-primary-300);
+}
+
+.bg-primary-600 {
+  background-color: var(--clr-primary-600);
+}
+
+.bg-neutral {
+  background-color: var(--clr-neutral);
+}
+
+.bg-secondary {
+  background-color: var(--clr-secondary);
+}
+
+.bg-terciary {
+  background-color: var(--clr-terciary);
+}
+
+.bg-success {
+  background-color: var(--clr-success);
+}
+
+.padding-50 {
+  padding: var(--size-50);
+}
+
+.padding-100 {
+  padding: var(--size-100);
+}
+
+.padding-200 {
+  padding: var(--size-200);
+}
+
+.padding-400 {
+  padding: var(--size-400);
+}
+
+h3 {
+  font-size: var(--fs-body);
+  font-weight: 600;
+  margin: 0;
+}
+
+::placeholder {
+  font-family: "Poppins", "sans-serif", "Apple Color Emoji";
+}
+
+header {
+  border-bottom: 2px outset var(--clr-primary-300);
+}
+
+footer {
+  height: 4rem;
+  position: absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+footer > div {
+  background-color: var(--clr-primary-600);
+  height: 100%;
+}
+
+#root {
+  padding-bottom: 4rem;
+}
+
+.logo-img {
+  height: 4rem;
+  width: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded-container {
+  border-radius: 0.5rem;
+}
+
+.upper-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--size-100);
+  height: 28rem;
+}
